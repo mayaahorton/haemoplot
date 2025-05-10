@@ -20,20 +20,3 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("blood_volume_over_time_plot.png")
 plt.show()
-
-# import pandas as pd
-# import matplotlib.pyplot as plt
-
-# # Load CSV file
-# df = pd.read_csv("stain_dual_volume_summary.csv")
-
-# # Basic debug print to check what's in the DataFrame
-# print(df.head())
-
-# # Minimal plot: just plot the three volume columns as sequences
-# plt.figure()
-# plt.plot(df['absorbed_mL'], label='Absorbed')
-# plt.plot(df['standing_mL'], label='Standing')
-# plt.plot(df['total_mL'], label='Total')
-# plt.legend()
-# plt.show()
